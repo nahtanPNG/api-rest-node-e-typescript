@@ -11,7 +11,7 @@ router.post('/teste', (req, res) => {
   console.log(req.body); //Recebe o corpo da requisição
 
   return res.status(StatusCodes.NOT_FOUND).json(req.body);
-});
+},);
 
 
 
