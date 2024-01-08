@@ -1,1 +1,1 @@
-export { };
+export * from './cidades'; //Exporta tudo do controller de cidades
