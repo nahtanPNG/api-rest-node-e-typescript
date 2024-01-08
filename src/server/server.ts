@@ -1,4 +1,5 @@
 import express from 'express';
+import 'dotenv/config'; //Autoexecução do dotenv
 
 import { router } from './routes';
 
